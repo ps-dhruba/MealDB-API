@@ -1,0 +1,96 @@
+body
+{
+    background-color: rgb(34, 33, 33);
+}
+
+.search-bar
+{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    gap: 5px
+}
+.search-bar input
+{
+    width: 450px;
+    height: 30px;
+    font-size: 1.2em;
+}
+.js-search-btn
+{
+    height: 35px;
+    font-size: 1.2em;
+    border: none;
+}
+.js-search-btn:hover
+{
+    background-color: green;
+    color:white;
+    cursor: pointer;
+}
+
+.js-noResult
+{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+.meal-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.card
+{
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgba(30, 143, 255, 0.254);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.card-img
+{
+    width: 250px;
+    border-radius: 5px;
+}
+.card:hover
+{
+    cursor: pointer;
+}
+
+.meal-details-container
+{
+    display: flex;
+    justify-self: center;
+}
+
+.meal-details
+{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+    color: whitesmoke;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.288);
+    margin-top: 50px;
+}
+
+.ingredients-container
+{
+    text-align: center;
+}
+
+
+.meal-img
+{
+    width: 250px;
+}
